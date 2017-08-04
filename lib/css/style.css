@@ -1,0 +1,28 @@
+.whi-yel{background: #f3f9d2 !important}
+.whi-yel-text{color: #f3f9d2 !important}
+.myblue-text{color: #92b4a7 !important}
+.mgt10{margin-top: 10px !important}
+.mgt20{margin-top: 20px !important}
+.mgt50{margin-top: 50px !important}
+.mgt100{margin-top: 100px !important}
+li:hover{background-color: rgba(0, 0, 0, 0.1) !important}
+.borderCenter:after{
+    width: 80%;
+    margin: 0 auto;
+    height: 1px;
+    background: #92b4a7
+}
+.nav-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #92b4a7;
+    margin: 0;
+}
+
+.activate{
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: #92b4a7;
+}
+.bold{font-weight: bolder}
+.user-bold{color: #92b4a7; font-size: 18px;}
