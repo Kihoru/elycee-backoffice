@@ -24,14 +24,139 @@
             </div>
             <li class="activate"><a class="whi-yel-text" href="index.html"><i class="whi-yel-text tiny material-icons">home</i>Home</a></li>
             <li><a class="whi-yel-text" href="#!"><i class="whi-yel-text tiny material-icons">person</i>Elèves</a></li>
-            <li><a class="whi-yel-text" href="addQcm.html"><i class="whi-yel-text tiny material-icons">list</i>Qcm</a></li>
+            <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header myNavDropDown whi-yel-text"><i class="whi-yel-text tiny material-icons">arrow_drop_down</i>Qcm</a>
+                        <div class="collapsible-body myblue">
+                            <ul>
+                                <li><a class="whi-yel-text" href="#!"><i class="whi-yel-text tiny material-icons">list</i>Liste</a></li>
+                                <li><a class="whi-yel-text" href="addQcm.html"><i class="whi-yel-text tiny material-icons">note_add</i>Créer</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
             <li><a class="whi-yel-text" href="#!"><i class="whi-yel-text tiny material-icons">insert_photo</i>Actualités</a></li>
             <li><a class="myblue-text" href="#!"><i class="myblue-text tiny material-icons">power_settings_new</i>Log Out</a></li>
         </ul>
 
         <section id="home">
             <div class="container">
-                <h2 class="blue-grey-text darken-3">Accueil</h2>
+                <div class="row">
+                    <div class="col s11 offset-s1">
+                        <h2 class="blue-grey-text darken-3">Dashboard</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3 offset-s1 center-align blue-grey-text darken-3">
+                        <h1>18</h1>
+                        <h3>Qcm</h3>
+                    </div>
+                    <div class="col s3 offset-s1 center-align myblue-text">
+                        <h1>42</h1>
+                        <h3>Commentaires</h3>
+                    </div>
+                    <div class="col s3 offset-s1 center-align mygreen-text">
+                        <h1>20</h1>
+                        <h3>Elevès</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s3 offset-s1">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title blue-grey-text darken-3">Fiches</span>
+                                <ul>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>Titre de la fiche : QMC</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status green"></p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>Titre de la fiche blablabla</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status green"></p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>Titre de la fiche de terminale</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status red"></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Voir toutes les fiches</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s3 offset-s1">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title blue-grey-text darken-3">Articles</span>
+                                <ul>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>Lycee portes ouvertes</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status green"></p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>Interview ancien élève</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status red"></p>
+                                        </div>
+                                    </li>
+                                    <li class="row">
+                                        <div class="col s10">
+                                            <p>La journée mondiale des étudiants</p>
+                                        </div>
+                                        <div class="col s2 right-align">
+                                            <p class="status red"></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Voir tous les articles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s3 offset-s1">
+                        <div class="card">
+                            <div class="card-content">
+                                <span class="card-title blue-grey-text darken-3">Elèves</span>
+                                <ul>
+                                    <li>
+                                        <p>Thomas as done [FICHE_TITLE]</p>
+                                    </li>
+                                    <li>
+                                        <p>Romain as done [FICHE_TITLE]</p>
+                                    </li>
+                                    <li>
+                                        <p>Sarah as done [FICHE_TITLE]</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">Voir tous les élèves</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
