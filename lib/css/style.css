@@ -45,3 +45,6 @@ li:hover{background-color: rgba(0, 0, 0, 0.1) !important}
     display: inline-block;
     margin-left: 20%;
 }
+.myswitch{
+    display: inline-block;
+}
