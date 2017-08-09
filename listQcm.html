@@ -5,6 +5,7 @@
         <title>backoffice</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+        <link rel="stylesheet" href="node_modules/toastr/build/toastr.min.css">
         <link rel="stylesheet" href="lib/css/style.css">
     </head>
     <body>
@@ -84,9 +85,9 @@
                                             </label>
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
-                                        <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating red delete-btn"><i class="material-icons">delete</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -103,8 +104,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -121,8 +122,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -139,8 +140,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -157,8 +158,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -175,8 +176,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -193,8 +194,8 @@
                                         </div>
                                         <a class="btn-floating yellow darken-2" href="editQcm.html"><i class="material-icons">edit</i></a>
                                         <a class="btn-floating red"><i class="material-icons">delete</i></a>
-                                        <a class="btn-floating green"><i class="material-icons">subject</i></a>
-                                        <a class="btn-floating blue" title="preview"><i class="material-icons">remove_red_eye</i></a>
+                                        <a class="btn-floating green" href="previewOrDoQcm.html"><i class="material-icons">subject</i></a>
+                                        <a class="btn-floating blue" title="preview" href="previewOrDoQcm.html"><i class="material-icons">remove_red_eye</i></a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -205,6 +206,7 @@
         </section>
         <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+        <script type="text/javascript" src="node_modules/toastr/build/toastr.min.js"></script>
         <script type="text/javascript" src="lib/js/main.js"></script>
     </body>
 </html>

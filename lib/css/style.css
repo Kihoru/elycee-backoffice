@@ -15,6 +15,8 @@ li:hover{background-color: rgba(0, 0, 0, 0.1) !important}
 .user-bold{color: #92b4a7; font-size: 18px}
 .collapsible-body{overflow: auto}
 .bold{font-weight: bolder}
+.inline-block{display: inline-block !important}
+.mgl20{margin-left: 20px !important}
 
 .borderCenter:after{
     width: 80%;
